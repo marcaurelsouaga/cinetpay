@@ -1,0 +1,785 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round", sans-serif;
+   
+}
+
+.zi {}
+
+.container {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.image {
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.van {
+    background-image: linear-gradient(45deg, #f92c2c, #f15b25) !important;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 9px;
+    margin: 10px;
+
+}
+
+.hop {
+    text-decoration: none;
+    color: black;
+    margin-top: 17px;
+    
+}
+
+.bouton{
+    margin-top: 17px;
+    gap: 20px;
+}
+
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+}
+
+
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+.menu a:hover {
+    color: #f15b25;
+}
+
+.gatcho {
+    background-color: black;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 5px;
+
+}
+
+.gacha {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+
+}
+
+.point {
+    font-size: 30px;
+    color: green;
+}
+
+.ker {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.porte {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.croissante {
+    background-image: linear-gradient(45deg, #f92c2c, #f15b25) !important;
+    transform: rotate(-4deg) scale(1.1);
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.zoo {
+    font-size: 25px;
+    margin-top: -25px;
+}
+
+.inline {
+    padding-top: 20px;
+}
+
+.inlina {
+    background-image: linear-gradient(45deg, #f92c2c, #f15b25) !important;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.inlinee {
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 20px;
+
+}
+
+.say {
+    display: flex;
+    width: 1000px;
+    gap: 100px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+}
+
+
+.Operation h2 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Operation p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+.Operation {
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+
+.colo {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block-text-un {
+    width: 450px;
+    font-size: 17px;
+}
+
+.maintenant {
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-right: 20px;
+    background-color: #f15b25;
+    color: white;
+    border-radius: 20px;
+}
+
+.plus {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+}
+
+.plus:hover {
+    border: solid 1px black;
+    border-radius: 20px;
+
+}
+
+.block-text-deux {
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    width: 500px;
+    border: solid 1px gray;
+}
+
+.Site {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.Site h3 {
+    font-size: 45px;
+    color: white;
+}
+
+.Site p {
+    font-size: 25px;
+    color: rgb(130, 123, 123);
+}
+
+.Chic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 20PX;
+    padding-top: 50px;
+}
+
+.Chic h4 {
+
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Chic i {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
+.Slash {
+    background-color: rgb(38, 38, 45);
+    margin-top: 50px;
+    padding-bottom: 100px;
+    border-radius: 30px;
+    margin: 40px;
+}
+
+.Site h2 {
+    background-image: linear-gradient(45deg, #f92c2c, #f15b25) !important;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.Chic span {
+    color: rgb(130, 123, 123);
+    font-size: 20px;
+}
+
+.dar {
+    background-image: linear-gradient(45deg, #f92c2c, #f15b25) !important;
+    transform: rotate(-4deg) scale(1.1);
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.confiance {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.confiance h2 {
+    font-size: 40px;
+}
+
+.confiance P {
+    margin-top: 5px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+    width: 900px;
+    filter: grayscale(100%);
+    margin-left: 250px;
+}
+
+.saturne {
+    font-size: 23px;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    min-height: 700px;
+    max-width: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.zor {
+    border: solid 1px rgb(130, 130, 130);
+    min-height: 400px;
+    flex-basis: 23%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    height: 500px;
+    font-size: 20px;
+    margin-top: -100px;
+}
+
+.zor P {
+    color: rgb(130, 130, 130);
+}
+
+.ducobu {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.snitch {
+    background-image: linear-gradient(45deg, #f92c2c, #f15b25) !important;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.breach {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 15px;
+    border: solid 1px black;
+}
+
+.tok {
+    text-align: center;
+}
+
+.tok p {
+    color: rgb(130, 130, 130);
+}
+
+.footer {
+    background-color: rgba(28, 28, 30, 1);
+    border-radius: 30px;
+    padding: 20px 20px;
+    color: #dddddd;
+    margin: 14px;
+}
+
+.foot {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.form form input {
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.form {
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 25px
+}
+
+.form a {
+    background-image: linear-gradient(45deg, #f92c2c, #f15b25) !important;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 7px;
+    margin-left: 20px;
+
+}
+
+
+.foot p {
+    font-size: 23px;
+}
+
+.violent a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 2px;
+}
+
+.Divin h4 {
+    color: rgb(130, 123, 123);
+}
+
+
+.tod img {
+    margin-top: 20px;
+}
+
+
+.violent a:hover {
+    color: rgb(130, 123, 123);
+}
+
+.start {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.violent {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.area {
+    text-align: right;
+}
+
+.area a {
+    color: rgb(130, 123, 123);
+    position: relative;
+    bottom: 35px;
+    margin-right: 20px;
+}
+
+.terr{
+    padding-bottom: 10px ;
+}
+
+
+.road-section {
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+}
+
+.road-left {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.road-linv-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.road-overlay {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.road-text h2 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.panthers-overlay {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.panthers-overlay img {
+    height: 40px;
+    width: auto;
+}
+
+.road-container {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.road-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.road-logo {
+    width: 180px;
+    margin-bottom: 5px;
+}
+
+.road-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.road-subtitle {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.road-form .fuck-group {
+    margin-bottom: 20px;
+}
+
+.fuck-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+    margin-left: 10px;
+}
+
+.fuck-group input {
+    width: 85%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 10px;
+    
+}
+
+.world-input {
+    position: relative;
+}
+
+.google-world {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+}
+
+.road-button {
+    width: 90%;
+    padding: 14px;
+    background-color: #FF4B26;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.road-button:hover {
+    background-color: #e63e1c;
+}
+
+.fuck-links {
+    text-align: center;
+}
+
+.porco-world {
+    color: #FF4B26;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.ton-compte {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.choix-compte {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #FFE8E6;
+    color: #FF4B26;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round", sans-serif;
+}
+
+.container {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.image {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Responsive pour tablettes (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bouton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .say {
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .images {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round", sans-serif;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+.container {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.image {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Responsive pour tablettes (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bouton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .say {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .images {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* Responsive pour mobiles (-768px) */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+    }
+
+    .gatcho {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .block-text-un, .block-text-deux {
+        width: 95%;
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .zor {
+        width: 95%;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px;
+    }
+}
